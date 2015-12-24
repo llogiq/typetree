@@ -1,0 +1,20 @@
+[package]
+name = "typetree"
+description = "Store data within Rust's type system"
+version = "0.1.0"
+authors = ["Andre Bogus <bogusandre@gmail.com>"]
+readme = "README.md"
+keywords = ["tree", "types"]
+license = "MIT"
+repository = "https://github.com/llogiq/typetree"
+documentation = "https://llogiq.github.io/typetree"
+
+[lib]
+name = "typetree"
+path = "src/lib.rs"
+
+[dependencies]
+typenum = "1.1.0"
+
+[features]
+unstable = []
